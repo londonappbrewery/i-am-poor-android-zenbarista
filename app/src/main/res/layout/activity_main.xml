@@ -21,14 +21,24 @@
         app:srcCompat="@drawable/coal" />
 
     <TextView
-        android:id="@+id/label"
+        android:id="@+id/poor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
         android:fontFamily="sans-serif-medium"
         android:text="@string/poor"
         android:textColor="@color/colorAccent"
-        android:textSize="40sp"
+        android:textSize="50sp"
         android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/warm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="@string/warm"
+        android:textSize="36sp" />
 
 </RelativeLayout>
